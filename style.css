@@ -161,9 +161,47 @@ footer {
 
 /* Responsividade */
 @media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-  }
+
+
+  .container {
+    background-color: #0d47a1;
+    padding: 15px 0;
+}
+nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin: auto;
+        display: inline-block;
+        padding: 7px;
+    }
+
+nav h1 {
+    color: white;
+    font-size: 24px;
+    opacity: 0.6;
+}
+nav {
+    display: block;
+    
+    align-items: center;
+}
+
+#home {
+    text-align: center;
+    padding: 50px 0;
+}
+.door-1 {
+    width: 389px;
+
+}
+.input{
+  display: none;
+}
+.center {
+    font-size: 37px;
+    color: #0d47a1;
+}
 
   #sobre {
     flex-direction: column;
@@ -171,6 +209,13 @@ footer {
   }
 
   #sobre img {
-    width: 100%;
+   width: 100%;
   }
+  #contato form input {
+    padding: 5px;
+    width: 82%;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
 }
